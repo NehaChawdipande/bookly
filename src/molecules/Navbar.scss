@@ -1,0 +1,70 @@
+.navbar {
+  position: sticky;
+  display: grid;
+  background-color: rgba(255, 255, 255, 0.817);
+  height: 3rem;
+  margin: 0.5rem 1rem;
+  padding: 8px 0 12px;
+  text-align: center;
+  align-content: center;
+  vertical-align: center;
+  border-radius: 0.5rem;
+  ul {
+    padding-inline-start: 0;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: center;
+    text-align: center;
+
+    li {
+      display: inline;
+      list-style: none;
+      vertical-align: middle;
+      text {
+        margin: 1rem 0;
+      }
+      h3 {
+        margin: 12px 0;
+      }
+      .MuiButtonBase-root {
+        color: #340456;
+      }
+    }
+  }
+  &-text {
+    &--primary {
+      color: rgb(237, 132, 40);
+    }
+    &--secondary {
+      color: #340456;
+    }
+  }
+  &-button {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    padding-top: 6px;
+    &--primary {
+      color: rgb(237, 132, 40);
+    }
+    &--secondary {
+      color: #340456;
+    }
+  }
+}
+.bottomNav {
+  @extend .navbar;
+  position: absolute;
+  margin: 12px 0 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  bottom: 0;
+  height: fit-content;
+  ul {
+    margin: 0;
+  }
+}

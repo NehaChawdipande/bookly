@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./molecules/Navbar";
-import Banner from "./molecules/Banner";
+import Books from "./molecules/Books";
 import BottomNav from "./molecules/BottomNav";
 
 function App() {
@@ -10,11 +10,9 @@ function App() {
       {/* <header className="App-header"> */}
       <Navbar pageName="Home" />
       <br />
-      <Banner />
+      <Books type="latest" />
       {/* </header> */}
-      <footer>
-        <BottomNav />
-      </footer>
+      <BottomNav />
     </div>
   );
 }

@@ -1,10 +1,12 @@
 .navbar {
   position: sticky;
+  top: 0;
   display: grid;
-  background-color: rgba(255, 255, 255, 0.817);
+  z-index: 1000;
+  background-color: rgba(255, 255, 255);
   height: 3rem;
-  margin: 0.5rem 1rem;
-  padding: 8px 0 12px;
+  margin: 0 1rem;
+  padding: 12px 0;
   text-align: center;
   align-content: center;
   vertical-align: center;
@@ -57,9 +59,12 @@
 }
 .bottomNav {
   @extend .navbar;
-  position: absolute;
+  background-color: rgba(255, 255, 255);
+  border-radius: 0.5rem;
+  position: sticky;
   margin: 12px 0 0;
-  padding: 0;
+  z-index: 1000;
+  padding: 16px 0;
   width: 100%;
   overflow: hidden;
   bottom: 0;

@@ -1,0 +1,33 @@
+.books {
+  margin: 12px 0;
+  padding: 0;
+  width: 46vw;
+  height: fit-content;
+  border-radius: 1rem;
+  border: none;
+  background-color: transparent;
+  &--even {
+  }
+  &--odd {
+    margin: -8px;
+  }
+  &-cover {
+    border-radius: 1rem;
+    border: none;
+    width: 46vw;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    &--even {
+    }
+    &--odd {
+      margin: -8px;
+    }
+  }
+  &-latest {
+  }
+}
+.gridView {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

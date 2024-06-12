@@ -12,7 +12,7 @@ function App() {
       <br />
       <Books type="latest" />
       {/* </header> */}
-      <BottomNav />
+      {/* <BottomNav /> */}
     </div>
   );
 }

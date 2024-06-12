@@ -1,8 +1,8 @@
 .books {
   margin: 12px 0;
   padding: 0;
-  width: 46vw;
-  height: fit-content;
+  height: 300px;
+  width:200px;
   border-radius: 1rem;
   border: none;
   background-color: transparent;
@@ -14,8 +14,8 @@
   &-cover {
     border-radius: 1rem;
     border: none;
-    width: 46vw;
-    height: fit-content;
+    width: inherit;
+    height: inherit;
     margin: 0;
     padding: 0;
     &--even {
@@ -29,5 +29,5 @@
 }
 .gridView {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .5fr .5fr .5fr .5fr;
 }

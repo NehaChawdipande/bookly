@@ -3,7 +3,7 @@
   top: 0;
   display: grid;
   z-index: 1000;
-  background-color: rgba(255, 255, 255);
+  background-color: rgb(0 0 0 / 40%);
   height: 3rem;
   margin: 0 1rem;
   padding: 12px 0;
@@ -23,6 +23,10 @@
     li {
       display: inline;
       list-style: none;
+      h3{
+        color: #eeeeee;
+
+      }
       vertical-align: middle;
       text {
         margin: 1rem 0;
@@ -31,7 +35,7 @@
         margin: 12px 0;
       }
       .MuiButtonBase-root {
-        color: #340456;
+        color: #eeeeee;
       }
     }
   }
